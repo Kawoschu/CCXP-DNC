@@ -1,0 +1,158 @@
+
+  body {
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  header{
+    background-color: #FFD900;
+    height: 100%;
+    width:100%;
+  }
+
+      header img {
+      margin: 30px 30px 30px 60px;
+      }
+
+
+    .container {
+      display: grid;
+      grid-auto-flow: column;
+      
+    }
+
+
+
+#main {
+  background: #514988;
+  height: fit-content;
+}
+
+#mainText1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #F3C61F;
+  padding-top: 60px;
+}
+
+#mainText1 h1{
+  margin: 0px;
+}
+
+
+#mainText1 h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+ 
+ 
+}
+
+#mainText2 {
+  width: 678px;
+  height: 350px;
+  left: 64px;
+  top: 370px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 70px 90px 120px 90px;
+}
+
+.timer{
+  display: flex;
+  flex-direction:row;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 85px;
+  color: #514988;
+  justify-content:space-between;
+  margin-left: 40px;
+  margin-right: 200px;
+  padding-top: 60px;
+
+}
+
+.timer div {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#timerText {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  color: #E33881;
+ 
+}
+
+video {
+  width: 96%;
+  margin-left: 20px;
+}
+
+#corre{
+  display: flex;
+  flex-direction: row;
+  color: #F3C61F;
+  font-family: 'Verdana';
+  font-weight: 700;
+  font-size: 28px;
+  margin-left: 5%;
+  line-height: 33px;
+}
+
+
+.tickets{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 300px;
+  justify-content:space-around;
+}
+
+#button{
+  padding-top: 2%;
+  align-content: center;
+  padding-right: 5%;
+}
+
+.tickets button {
+  background: #514988;
+  border: none;
+  cursor: pointer;
+  width: 596px;
+  height: 148px;
+  left: 1004px;
+  top: 903px;
+  background: #514988;
+  border-radius: 20px;
+  font-size: 42px;
+  font-weight: 700;
+  color:white;
+  align-content: center;
+  transition: 0.2s  ease-in-out;
+}
+
+.tickets button:hover {
+  background-color: #F3C61F;
+}
+
+.card-highlight{
+  transform: scale(1.3);
+}
